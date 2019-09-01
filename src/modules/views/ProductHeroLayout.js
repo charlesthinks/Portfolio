@@ -55,12 +55,6 @@ function ProductHeroLayout(props) {
   return (
     <section className={classes.root}>
       <LayoutBody className={classes.layoutBody} width="full">
-        <img
-          src="/static/themes/onepirate/productHeroWonder.png"
-          alt="wonder"
-          width="147"
-          height="80"
-        />
         {children}
         <div className={classes.backdrop} />
         <div className={classNames(classes.background, backgroundClassName)} />

@@ -48,7 +48,7 @@ function ProductSmokingHero(props) {
         </Typography>
       </Button>
       <Typography variant="subtitle1" className={classes.link}>
-        We are here to help. Get in touch!
+        I am here to help. Get in touch!
       </Typography>
       <i class="fas fa-life-ring fa-4x" />
     </LayoutBody>

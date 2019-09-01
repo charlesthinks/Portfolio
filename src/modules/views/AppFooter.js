@@ -7,7 +7,6 @@ import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
 import LayoutBody from "../components/LayoutBody";
 import Typography from "../components/Typography";
-import TextField from "../components/TextField";
 
 const styles = theme => ({
   root: {
@@ -52,17 +51,6 @@ const styles = theme => ({
   }
 });
 
-const LANGUAGES = [
-  {
-    code: "en-US",
-    name: "English"
-  },
-  {
-    code: "fr-FR",
-    name: "Français"
-  }
-];
-
 function AppFooter(props) {
   const { classes } = props;
 
@@ -81,17 +69,25 @@ function AppFooter(props) {
                 <a
                   href="https://linkedin.com/in/charlesthinks"
                   className={classes.icon}
-                  target="_blank">
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <i className="fab fa-linkedin fa-2x" />
                 </a>
                 <a
                   href="https://github.com/charlesthinks"
                   className={classes.icon}
-                  target="_blank">
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <i className="fab fa-github fa-2x" />
                 </a>
               </Grid>
-              <Grid item>Made with ❤️.</Grid>
+              <Grid item>
+                Made with{" "}
+                <span role="img" aria-label="heart">
+                  ❤️
+                </span>
+                .
+              </Grid>
             </Grid>
           </Grid>
           <Grid item xs={6} sm={4} md={2}>

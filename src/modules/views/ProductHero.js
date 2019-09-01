@@ -45,7 +45,7 @@ function ProductHero(props) {
       <Typography
         color="inherit"
         align="center"
-        variant="h5"
+        variant="caption"
         className={classes.h5}>
         <RotatingText />
       </Typography>

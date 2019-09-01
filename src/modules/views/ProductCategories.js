@@ -128,6 +128,27 @@ function ProductCategories(props) {
       title: "Psychic Game",
       width: "24%",
       link: "https://charlesthinks.github.io/Psychic-Game/"
+    },
+    {
+      url:
+        "https://images.pexels.com/photos/532001/pexels-photo-532001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "BPOALA",
+      width: "24%",
+      link: "http://bpoala.org/"
+    },
+    {
+      url:
+        "https://images.pexels.com/photos/975668/pexels-photo-975668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "iWearByRaqui",
+      width: "33.3%",
+      link: "http://i-wearbyraqui.com/"
+    },
+    {
+      url:
+        "https://images.pexels.com/photos/346796/pexels-photo-346796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "Sheriff's Youth Foundation",
+      width: "42.7%",
+      link: "http://www.sheriffsyouthfoundation.org/"
     }
   ];
 
